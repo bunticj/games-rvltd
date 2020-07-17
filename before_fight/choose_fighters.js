@@ -5,7 +5,6 @@ const readline = require('readline');
 
 
 chooseFighters = async () => {
-    //create readline interface 
     const rl = readline.createInterface({
         input: process.stdin,
         output: process.stdout

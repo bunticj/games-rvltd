@@ -12,6 +12,7 @@ isValidInput = userInput => {
     }
 }
 
+//handle command line inputs
 readInputFromConsole = (rl,theQuestion) => {
     return new Promise((resolve, reject) => {
         
